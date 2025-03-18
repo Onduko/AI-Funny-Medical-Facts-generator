@@ -20,15 +20,24 @@ form {
   height: 30px;
   border-radius: 10px;
   border: none;
-  background-color: rgb(174, 245, 245);
-  width: 15%;
+  background-color: rgb(182, 227, 227);
+  width: 17%;
 }
 #fact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 30px;
   text-align: center;
+}
+.icon {
+  display: inline-block;
+  animation: rotateIcon 2s linear infinite;
+}
+@keyframes rotateIcon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 footer {
   margin-top: 30px;

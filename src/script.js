@@ -1,6 +1,7 @@
 let organInput = document.querySelector("#organ");
 let form = document.querySelector("form");
 let fact = document.querySelector("#fact");
+let icon = document.querySelector(".icon");
 
 function displayJoke(response) {
   new Typewriter("#fact", {
